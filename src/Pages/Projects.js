@@ -34,17 +34,19 @@ function Projects() {
       backenddeploy:"https://shopify-backend-x9ad.onrender.com/"
     },
     {
-      img:shopify,
-      heading:"Shopify",
-      des:"Shopify is a real-time shopping web application where users can buy products from their homes. This application provides a very intuitive user experience and tries to make the shopping process as easy as possible.",
- 
+      img:vehicleService,
+      heading:"Chat Box",
+      des:"It is a chat box web application,Where user can make friends and chat with them.Used and deployed all CRUD operations in this website in a very standard way using MERN stack.",
+      tool1:"React",
+      tool2:"MongoDB",
+      tool3:"Node js",
+      tool4:"Express js",
+      frontendsource:"https://github.com/Arunbaskaran96/chatbox",
+      backendsource:"https://github.com/Arunbaskaran96/forgot-password-node",
+      frontenddeploy:"https://lucky-brigadeiros-305061.netlify.app/",
+      backenddeploy:"https://forgotpassword-g94p.onrender.com/"
     },
-    {
-      img:shopify,
-      heading:"Shopify",
-      des:"Shopify is a real-time shopping web application where users can buy products from their homes. This application provides a very intuitive user experience and tries to make the shopping process as easy as possible.",
 
-    },
   ]
 
   return (
