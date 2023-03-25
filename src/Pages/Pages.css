@@ -1,0 +1,221 @@
+
+
+.about-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    background-image: url("https://img.freepik.com/free-photo/old-black-background-grunge-texture-dark-wallpaper-blackboard-chalkboard-room-wall_1258-28312.jpg?w=996&t=st=1679229160~exp=1679229760~hmac=735f2de1de6ef84b2d198b1947a1bb2b457e772320bc0c837fe4cdd1aa8c1778");
+}
+
+.about-wel{
+    font-size: 90px;
+    color: silver;
+    font-style: italic;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    font-family: 'Poppins', sans-serif;
+}
+.about-iam{
+    font-size: 40px;
+    color: silver;
+}
+.about-name{
+    font-size: 80px;
+    color: silver;
+    font-style: italic;
+}
+.about-des{
+    font-size: 50px;
+    color: silver;
+}
+.about-minicard{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+.about-hyperlink{
+    margin-top: 50px;
+}
+.about-img{
+    height: 400px;
+    width: 600px;
+}
+
+.about-hyper:hover{
+    transform: scale(1.5);
+    color: green;
+}
+
+.about-para{
+    margin-top: 40px;
+    color: black;
+}
+
+.about-heading{
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    text-shadow: 5px 5px silver;
+    letter-spacing: 15px;
+}
+
+.about-contact-img{
+    font-size: 40px;
+    margin: 15px 25px;
+}
+
+.resume{
+    margin-top: 25px;
+    font-size: 25px;
+    padding: 10px;
+    background-color:black;
+    color: silver;
+    border-radius: 30px;
+    box-shadow: 10px 10px 10px black;
+    text-decoration: none;
+}
+
+.about-maincontainer{
+    background-image: url("https://png.pngtree.com/background/20210710/original/pngtree-taobao-tmall-men-s-day-promotional-poster-men-s-wear-picture-image_1029048.jpg");
+    height: 88vh;
+}
+
+.about-col{
+    padding: 0px 10px;
+}
+
+.text-center{
+    text-align: center;
+}
+
+
+/* skills */
+.skills-heading,.project-heading{
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    text-shadow: 5px 5px silver;
+    letter-spacing: 15px;
+    font-size: 50px;
+}
+
+.skill-minicard{
+    border: 1px solid black;
+    padding: 20px 20px;
+    margin: 0px 40px;
+    box-shadow: 10px 10px 10px black;
+    border-radius: 20px;
+}
+
+.skill-line1{
+    text-align: center;
+}
+
+.tech-skill{
+    letter-spacing: 10px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.skill-img{
+    height: 100px;
+    margin-left: 50px;
+}
+
+.skill-topic{
+    font-size: 25px;
+}
+.tech-minicard{
+    padding: 10px;
+    margin: 15px;
+    box-shadow: 10px 10px 10px black;
+    border-radius: 15px;
+}
+.skills-container{
+    background-image: url("https://png.pngtree.com/background/20210710/original/pngtree-taobao-tmall-men-s-day-promotional-poster-men-s-wear-picture-image_1029048.jpg");
+}
+
+/* project */
+.project-container{
+    letter-spacing: 10px;
+    text-align: center;
+}
+
+.project-image{
+    width: 70%;
+    margin-left: 100px;
+}
+.projects-container{
+    margin: 20px;
+    box-shadow: 10px 10px 10px black;
+    background-color: whitesmoke;
+    margin-left: 60px;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.projeect-tool{
+    margin: 0px 10px;
+    padding: 1px 5px;
+    box-shadow: 10px 10px 10px black;
+    border-radius: 10px;
+    color: red
+}
+
+.exp-card{
+    border: 1px solid black ;
+    margin-left: 150px;
+    background-color: whitesmoke;
+    padding: 15px;
+    box-shadow: 10px 10px 10px black;
+    border-radius: 20px;
+}
+
+.expp{
+    margin: 0px;
+}
+.span1{
+    margin-left: 80px;
+}
+
+
+@media screen and (max-width:768px) {
+    .skill-minicard{
+        margin-left: 0px;
+        margin-bottom: 5px;
+    }
+    .tech-minicard{
+        margin: 0px;
+    }
+    .about-maincontainer{
+        height: 100vh;
+    }
+    .projects-container{
+        margin: 0px;
+        margin-bottom: 5px;
+    }
+    .span1{
+        margin-left: 0px;
+    }
+    .project-image{
+        margin-left: 50px;
+    }
+    .exp-card{
+        margin-left: 10px;
+        margin-right: 50px;
+    }
+    .about-minicard{
+        display: flex;
+    }
+    .home-image{
+        display: none;
+    }
+    .about-wel{
+        font-size: 60px;
+    }
+}
