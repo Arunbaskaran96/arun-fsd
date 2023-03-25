@@ -21,7 +21,7 @@ function About() {
               <i class="fa-brands fa-github about-contact-img"></i>
             </a>
           </div>
-          <a href={resume} target="_blank"  className='resume' style={{marginTop:"20px"}}>Resume</a>
+          <a href="https://drive.google.com/file/d/1XV1e5zFYTmvLWbM9Msi873i15HqIXCE_/view?usp=share_link" target="_blank"  className='resume' style={{marginTop:"20px"}}>Resume</a>
         </div>
         <div className='col-1'></div>
       </div>
