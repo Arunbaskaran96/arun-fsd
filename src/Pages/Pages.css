@@ -6,7 +6,8 @@
     align-items: center;
     height: 100vh;
     flex-direction: column;
-    background-image: url("https://img.freepik.com/free-photo/old-black-background-grunge-texture-dark-wallpaper-blackboard-chalkboard-room-wall_1258-28312.jpg?w=996&t=st=1679229160~exp=1679229760~hmac=735f2de1de6ef84b2d198b1947a1bb2b457e772320bc0c837fe4cdd1aa8c1778");
+    /* background-image: url("https://img.freepik.com/free-photo/old-black-background-grunge-texture-dark-wallpaper-blackboard-chalkboard-room-wall_1258-28312.jpg?w=996&t=st=1679229160~exp=1679229760~hmac=735f2de1de6ef84b2d198b1947a1bb2b457e772320bc0c837fe4cdd1aa8c1778"); */
+    background-color: black;
 }
 
 .about-wel{
@@ -75,13 +76,14 @@
     background-color:black;
     color: silver;
     border-radius: 30px;
-    box-shadow: 10px 10px 10px black;
+    box-shadow: 4px 4px 4px black;
     text-decoration: none;
 }
 
 .about-maincontainer{
-    background-image: url("https://png.pngtree.com/background/20210710/original/pngtree-taobao-tmall-men-s-day-promotional-poster-men-s-wear-picture-image_1029048.jpg");
+    /* background-image: url("https://png.pngtree.com/background/20210710/original/pngtree-taobao-tmall-men-s-day-promotional-poster-men-s-wear-picture-image_1029048.jpg"); */
     height: 88vh;
+    background-color: silver;
 }
 
 .about-col{
@@ -108,7 +110,7 @@
     border: 1px solid black;
     padding: 20px 20px;
     margin: 0px 40px;
-    box-shadow: 10px 10px 10px black;
+    box-shadow: 5px 5px 5px black;
     border-radius: 20px;
 }
 
@@ -133,11 +135,12 @@
 .tech-minicard{
     padding: 10px;
     margin: 15px;
-    box-shadow: 10px 10px 10px black;
+    box-shadow: 5px 5px 5px black;
     border-radius: 15px;
 }
 .skills-container{
-    background-image: url("https://png.pngtree.com/background/20210710/original/pngtree-taobao-tmall-men-s-day-promotional-poster-men-s-wear-picture-image_1029048.jpg");
+    /* background-image: url("https://png.pngtree.com/background/20210710/original/pngtree-taobao-tmall-men-s-day-promotional-poster-men-s-wear-picture-image_1029048.jpg"); */
+    background-color: silver;
 }
 
 /* project */
@@ -152,19 +155,31 @@
 }
 .projects-container{
     margin: 20px;
-    box-shadow: 10px 10px 10px black;
+    box-shadow: 5px 5px 5px black;
     background-color: whitesmoke;
     margin-left: 60px;
     padding: 10px;
     border-radius: 15px;
 }
+.projects-main-container{
+    background-color: silver;
+}
 
 .projeect-tool{
     margin: 0px 10px;
     padding: 1px 5px;
-    box-shadow: 10px 10px 10px black;
+    box-shadow: 4px 4px 4px black;
     border-radius: 10px;
     color: red
+}
+
+.credential-container{
+    margin: 10px 110px;
+    margin-bottom: 40px;
+    box-shadow: 5px 5px 5px black;
+    padding-top: 10px;
+    background-color: wheat;
+    padding-bottom: 5px;
 }
 
 .exp-card{
@@ -172,8 +187,12 @@
     margin-left: 150px;
     background-color: whitesmoke;
     padding: 15px;
-    box-shadow: 10px 10px 10px black;
+    box-shadow: 5px 5px 5px black;
     border-radius: 20px;
+}
+.experience-main-container{
+    background-color: silver;
+    height: 90vh;
 }
 
 .expp{
@@ -183,6 +202,55 @@
     margin-left: 80px;
 }
 
+.contact-p{
+    margin-bottom: 0px;
+    font-size: 33px;
+    color: whitesmoke;
+}
+.contact-h2{
+    font-size: 40px;
+    font-weight: bolder;
+    color: whitesmoke;
+}
+
+.contact-lists{
+    color: whitesmoke;
+    text-decoration: none;
+}
+.contact-information{
+    background-color: black;
+    padding-bottom: 120px;
+    margin-top: 50px;
+    padding-top: 30px;
+}
+.contact-type{
+    margin-bottom: 35px;
+    margin-left: 15px;
+    font-size: 40px;
+    font-weight: bolder;
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+.email{
+    font-size: 40px;
+    color: red;
+}
+.mobile{
+    font-size: 40px;
+    color: whitesmoke;
+}
+.github{
+    font-size: 40px;
+    color: gray;
+}
+.linkedin{
+    font-size: 40px;
+    color: aqua;
+}
+.contact-type:hover{
+    color: aqua;
+}
 
 @media screen and (max-width:768px) {
     .skill-minicard{

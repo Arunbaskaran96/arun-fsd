@@ -27,6 +27,9 @@ function Topbar() {
             <Link to='/navbar/experience' className='experiences'>
                 <li>Experiences</li>
             </Link>
+            <Link to='/navbar/contact' className='experiences'>
+                <li>Contact</li>
+            </Link>
         </ul>
         <button onClick={()=>{
             setMobile(!ismobile)

@@ -3,6 +3,8 @@ import './Pages.css'
 
 import  shopify from '../ProjectImages/shopify.png'
 import vehicleService from '../ProjectImages/Project2.png'
+import hotelbooking from '../ProjectImages/Hotel-web-app.png'
+import chatbox from '../ProjectImages/Chat-box.png'
 
 function Projects() {
 
@@ -28,13 +30,13 @@ function Projects() {
       tool2:"MongoDB",
       tool3:"Node js",
       tool4:"Express js",
-      frontendsource:"https://github.com/Arunbaskaran96/shopping-app-frontend",
-      backendsource:"https://github.com/Arunbaskaran96/shopping-app-backend",
-      frontenddeploy:"https://fascinating-dragon-43b7cd.netlify.app/",
-      backenddeploy:"https://shopify-backend-x9ad.onrender.com/"
+      frontendsource:"https://github.com/Arunbaskaran96/motorcycle-service-booking-frontend",
+      backendsource:"https://github.com/Arunbaskaran96/motorcycle-service-booking-backend",
+      frontenddeploy:"https://soft-lokum-1da8b3.netlify.app/",
+      backenddeploy:"https://motorcycle-service-app.onrender.com/"
     },
     {
-      img:vehicleService,
+      img:chatbox,
       heading:"Chat Box",
       des:"It is a chat box web application,Where user can make friends and chat with them.Used and deployed all CRUD operations in this website in a very standard way using MERN stack.",
       tool1:"React",
@@ -46,14 +48,43 @@ function Projects() {
       frontenddeploy:"https://lucky-brigadeiros-305061.netlify.app/",
       backenddeploy:"https://forgotpassword-g94p.onrender.com/"
     },
+    {
+      img:hotelbooking,
+      heading:"OYO Rooms",
+      des:"This is a Hotel booking web application. Where you can book a hotel. If the Book button is disabled that is booked by someone else. And I have used all the CRUD operation in this website. After Booking you can check your booking details in history section. ",
+      tool1:"React",
+      tool2:"MongoDB",
+      tool3:"Node js",
+      tool4:"Express js",
+      frontendsource:"https://github.com/Arunbaskaran96/project-4",
+      backendsource:"https://github.com/Arunbaskaran96/Project4-backend",
+      frontenddeploy:"https://sensational-pudding-39ed14.netlify.app/",
+      backenddeploy:"https://project4-backend-e5g5.onrender.com/"
+    },
 
   ]
 
   return (
-    <div className='container-fluid'>
+    <div className='container-fluid projects-main-container'>
       <div className='row'>
         <div className='col-md-12 project-container'>
           <h3 className='project-heading'>Projects</h3>
+        </div>
+      </div>
+      <div className='row'>
+        <div className='col-6 text-center'>
+          <div className='credential-container'>
+            <h5>User Credential</h5>
+            <p style={{marginBottom:"5px"}}><strong>Email :</strong>arundhilla@gmail.com</p>
+            <p style={{marginLeft:"-90px"}}><strong>password :</strong>Arun</p>
+          </div>
+        </div>
+        <div className='col-6 text-center'>
+          <div  className='credential-container'>
+            <h5>Admin Credential</h5>
+            <p style={{marginBottom:"5px"}}><strong>Email :</strong>admin@gmail.com</p>
+            <p style={{marginLeft:"-60px"}}><strong>password :</strong>Admin</p>
+          </div>
         </div>
       </div>
       <div className='row'>

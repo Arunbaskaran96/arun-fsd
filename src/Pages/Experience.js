@@ -3,7 +3,7 @@ import "./Pages.css"
 
 function Experience() {
   return (
-    <div className='container-fuild'>
+    <div className='container-fuild experience-main-container'>
       <div className='row'>
         <div className='col-12'>
           <h4 className='project-heading text-center'>Experiences</h4>

@@ -9,6 +9,7 @@ import Projects from './Pages/Projects';
 import Skills from './Pages/Skills';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
 import Interest from './Pages/Interest';
+import Contact from './Pages/Contact';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Route path='projects' element={<Projects/>}></Route>
         <Route path='experience' element={<Experience/>}></Route>
         <Route path='interest' element={<Interest/>}></Route>
+        <Route path='contact' element={<Contact/>}/>
       </Route>
     </Routes>
     </BrowserRouter>
