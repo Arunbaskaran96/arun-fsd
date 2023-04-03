@@ -18,7 +18,7 @@ function Contact() {
                 <a className='contact-lists' href='mailto:arundhi04101996@gmail.com'><i class="fa-solid fa-envelope email"></i><span className='contact-type'>Email</span></a><br/>
                 <a className='contact-lists' href='tel:+917539913570'><i class="fa-solid fa-mobile mobile"></i><span className='contact-type'>Mobile</span></a><br/>
                 <a className='contact-lists' href='https://github.com/Arunbaskaran96' target="_blank"><i class="fa-brands fa-github github"></i><span className='contact-type'>Github</span></a><br/>
-                <a className='contact-lists' href=''><i class="fa-brands fa-linkedin linkedin"></i><span className='contact-type'>LinkedIn</span></a><br/>
+                <a className='contact-lists' href='https://www.linkedin.com/in/arun-b-841112271/' target="_blank"><i class="fa-brands fa-linkedin linkedin"></i><span className='contact-type'>LinkedIn</span></a><br/>
             </div>
         </div>
     </div>
